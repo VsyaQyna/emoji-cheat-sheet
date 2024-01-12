@@ -15,7 +15,7 @@ jobs:
 
       - name: Push New Cheat Sheet to Updated Branch
         run: |
-          git diff --name-only --exit-code && exit 0
+          git diff --name-only --exit-codeyp && exit 0
           git add README.md
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
